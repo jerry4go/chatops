@@ -28,7 +28,7 @@ HUBOT_SLACK_TOKEN
 
 安装（记得需要进入创建的机器人的主目录执行，否则报错）
 
-`npm install hubot-jenkins`
+"npm install hubot-jenkins"
 
 环境变量
 
