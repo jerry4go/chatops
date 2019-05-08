@@ -45,3 +45,5 @@ https://slack.dev/hubot-slack/
 
 https://hubot.github.com/docs
 
+https://github.com/slackapi/hubot-slack
+
