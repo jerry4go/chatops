@@ -6,6 +6,26 @@ yum install -y epel-release
 
 yum install -y nodejs
 
-### 安装
+### 安装 创建第一个机器人
 
+npm install -g yo generator-hubot
+
+mkdir my-awesome-hubot && cd my-awesome-hubot
+
+yo hubot --adapter=slack
+
+### 从slack 获取token
+
+有两种方式，一种是通过创建app，一种是创建integration
+
+Create a Slack App with a Bot User (recommended)  用于新版本的slack
+
+Create a configuration of the Hubot Integration   用于老版本的slack
+
+
+### 允许hubot
+
+cd my-awesome-hubot
+
+HUBOT_SLACK_TOKEN=xoxb-YOUR-TOKEN-HERE ./bin/hubot --adapter slack
 
