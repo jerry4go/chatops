@@ -29,3 +29,19 @@ cd my-awesome-hubot
 
 HUBOT_SLACK_TOKEN=xoxb-YOUR-TOKEN-HERE ./bin/hubot --adapter slack
 
+### hubot 机器人说明
+
+安装后预编写好的脚本功能 external-scripts.json
+
+预编写后的回复，通过正则来匹配，然后响应  scripts/example.coffee
+
+https://hubot.github.com/docs/scripting/
+
+### 参考网址
+
+https://api.slack.com/
+
+https://slack.dev/hubot-slack/
+
+https://hubot.github.com/docs
+
