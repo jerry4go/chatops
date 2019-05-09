@@ -33,6 +33,7 @@ HUBOT_SLACK_TOKEN
 环境变量
 
 HUBOT_JENKINS_URL
+
 HUBOT_JENKINS_AUTH（Auth的格式为user:password）
 
 3.hubot-script-shellcmd
@@ -54,6 +55,7 @@ npm install hubot-grafana
 环境变量
 
 HUBOT_GRAFANA_HOST
+
 HUBOT_GRAFANA_API_KEY
 
 
