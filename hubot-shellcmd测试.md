@@ -32,3 +32,34 @@ shellcmd disk
 ```
 HUBOT_SHELLCMD_KEYWORD=run
 ```
+
+5. 后台启动脚本
+```
+cd mybot
+
+npm install --save forever
+
+vim bin/hubot
+
+把原先的启动脚本注释掉
+
+#exec node_modules/.bin/hubot --name "my-awesome-hubot" "$@"
+
+修改为
+
+forever start -c coffee node_modules/.bin/hubot --name "my-awesome-hubot" "$@"
+
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
