@@ -12,4 +12,9 @@ npm install hubot-script-shellcmd
 ```
 "hubot-script-shellcmd"
 ```
-4.
+4. 常用命令
+
+查看当前有哪些脚本
+```
+shellcmd
+```
