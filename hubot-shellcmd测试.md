@@ -23,3 +23,12 @@ shellcmd
 ```
 shellcmd disk
 ```
+
+如果不想用shellcmd开头来执行，可以用别名来替换
+
+比如用 run 替换 shellcmd
+
+只需要在启动robot的时候加载这个变量
+```
+HUBOT_SHELLCMD_KEYWORD=run
+```
