@@ -18,3 +18,8 @@ npm install hubot-script-shellcmd
 ```
 shellcmd
 ```
+
+执行某个脚本，比如执行查看硬盘的脚本 disk
+```
+shellcmd disk
+```
