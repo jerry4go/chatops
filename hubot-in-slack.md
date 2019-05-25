@@ -27,6 +27,8 @@ Create a configuration of the Hubot Integration   用于老版本的slack
 ```
 cd my-awesome-hubot
 
+rm -rf hubot-scripts.json
+
 HUBOT_SLACK_TOKEN=xoxb-YOUR-TOKEN-HERE ./bin/hubot --adapter slack
 ```
 ### hubot 机器人说明
