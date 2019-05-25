@@ -5,6 +5,9 @@ cd my-awesome-hubot/
 2. 执行模块安装命令
 ```
 npm install hubot-script-shellcmd
+
+cp -R node_modules/hubot-script-shellcmd/bash ./
+
 ```
 3. 编辑external-scripts.json
 
