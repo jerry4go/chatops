@@ -10,7 +10,9 @@ yum install -y nodejs
 ```
 npm install -g yo generator-hubot
 
-mkdir my-awesome-hubot && cd my-awesome-hubot
+chmod g+rwx /root /root/.config /root/.config/configstore /root/.npm
+
+mkdir my-awesome-hubot && chmod 777 my-awesome-hubot && cd my-awesome-hubot
 
 yo hubot --adapter=slack
 ```
