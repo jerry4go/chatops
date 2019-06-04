@@ -10,7 +10,7 @@ hubot的插件安装都是通过npm install来执行，安装完之后，
 
 ### 插件
 
-1.hubot-slack
+### 1.hubot-slack
 
 将hubot集成到slack中
 
@@ -22,7 +22,7 @@ npm install hubot-slack
 
 HUBOT_SLACK_TOKEN
 
-2.hubot-jenkins
+### 2.hubot-jenkins
 
 将hubot集成到jenkins中
 
@@ -36,7 +36,7 @@ HUBOT_JENKINS_URL
 
 HUBOT_JENKINS_AUTH（Auth的格式为user:password）
 
-3.hubot-script-shellcmd
+### 3.hubot-script-shellcmd
 
 提供hubot执行linux shell脚本的能力
 
@@ -44,7 +44,7 @@ HUBOT_JENKINS_AUTH（Auth的格式为user:password）
 
 npm install hubot-script-shellcmd
 
-4.hubot-grafana
+### 4.hubot-grafana
 
 将hubot接入到grafana获取到图表
 
