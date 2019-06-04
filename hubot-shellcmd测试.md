@@ -7,11 +7,12 @@ cd my-awesome-hubot/
 npm install hubot-script-shellcmd
 
 cp -R node_modules/hubot-script-shellcmd/bash ./
+
 ```
 
 脚本会从 bash/handlers  读取，自己的编写的脚本要加执行权限，否则无法执行
 ```
-chmod +x *.sh
+chmod +x bash/handlers/*
 ```
 3. 编辑external-scripts.json
 
