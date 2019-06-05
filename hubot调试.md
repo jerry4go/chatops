@@ -1,0 +1,1 @@
+HUBOT_LOG_LEVEL="debug"
